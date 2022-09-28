@@ -29,7 +29,7 @@ importers:
   build/estimate-bytes:
     specifiers:
       esbuild: ^0.15.0
-      filesize: ^9.0.0
+      filesize: ^10.0.0
       globby: ^13.1.1
       gzip-cli: ^1.2.0
       js-yaml: 4.1.0
@@ -38,7 +38,7 @@ importers:
       yaml: 2.1.1
     devDependencies:
       esbuild: 0.15.0
-      filesize: 9.0.9
+      filesize: 10.0.0
       globby: 13.1.2
       gzip-cli: 1.2.0
       js-yaml: 4.1.0
@@ -10337,6 +10337,11 @@ packages:
     dev: true
     optional: true
 
+  /filesize/10.0.0:
+    resolution: {integrity: sha512-gGxOkPq8aq/xSj5El1qDPgPQXeTwdB7GotQn7uGKSe/dlkEYCaehjkeQn5bhajMU6wKAMrxFrSRSCwBOtOgD2g==}
+    engines: {node: '>= 16.0.0'}
+    dev: true
+
   /filesize/5.0.3:
     resolution: {integrity: sha512-RM123v6KPqgZJmVCh4rLvCo8tLKr4sgD92DeZ+AuoUE8teGZJHKs1cTORwETcpIJSlGsz2WYdwKDQUXby5hNqQ==}
     engines: {node: '>= 0.4.0'}
@@ -10344,11 +10349,6 @@ packages:
 
   /filesize/8.0.7:
     resolution: {integrity: sha512-pjmC+bkIF8XI7fWaH8KxHcZL3DPybs1roSKP4rKDvy20tAWwIObE4+JIseG2byfGKhud5ZnM4YSGKBz7Sh0ndQ==}
-    engines: {node: '>= 0.4.0'}
-    dev: true
-
-  /filesize/9.0.9:
-    resolution: {integrity: sha512-1p0ZaDrILQ9fmkDnxITzF9O+EjnsEsr+aNEC45DL+3dxO2g5ypmhf9+b2i1hg264F+glTLQBM4bK/sadk8KVrA==}
     engines: {node: '>= 0.4.0'}
     dev: true
 
